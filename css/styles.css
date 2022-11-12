@@ -425,7 +425,6 @@ body {
   position: relative;
   display: flex;
   align-items: baseline;
-  gap: 70px;
 }
 
 .address {
@@ -493,11 +492,11 @@ body {
 .footer-soc-link:focus {
   background-color: var(--accent-color);
 }
+.center-column-footer {
+  margin-left: 70px;
+}
 .subscribe-form-footer {
-  position: absolute;
-  right: 0;
-  top: 40%;
-  transform: translateY(-50%);
+  margin-left: auto;
 }
 .subscribe-form {
   display: flex;
@@ -531,8 +530,7 @@ body {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  min-width: 200px;
-  height: 50px;
+  padding: 10px 28px;
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
